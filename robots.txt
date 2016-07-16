@@ -1,0 +1,17 @@
+User-agent: *
+Sitemap: http://www.jackrowley.net/sitemap.xml
+Disallow: /forms/
+Disallow: /css/
+Disallow: /cgi-bin/
+Disallow: /marcjr/
+Disallow: /autoSite/
+Disallow: /Templates/
+Disallow: /*.zip$
+Disallow: /*.flv$
+Disallow: /*.bak$
+Disallow: /*.fla$
+Disallow: /*.xls$
+Disallow: /*.mdb$
+Disallow: /*.config$
+Disallow: /*.js$
+
