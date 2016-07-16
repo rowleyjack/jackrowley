@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+#basic-accordian{
+	padding: 0;
+	width: 660px;
+	z-index: 2;
+}
+.accordion_headings{
+	height: 25px;
+	background: url(../portfolio/website-design/images/dropUp.jpg)  no-repeat;
+	padding: 10px 0 0 20px;
+	color: #931111;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 12px;
+}
+.accordion_headings:hover{
+	background-image: url(../portfolio/website-design/images/dropDown.jpg) no-repeat;
+}
+
+.accordion_child{
+	width: 652px;
+	padding: 5px 5px 0 0;
+	border: 1px solid #d2d2d2 !important;
+	border-top: none !important;
+	overflow: hidden;
+	
+}
+.header_highlight{
+	background: url(../portfolio/website-design/images/dropDown.jpg) no-repeat;
+	color: #931111;
+}

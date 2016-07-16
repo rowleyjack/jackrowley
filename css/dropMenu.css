@@ -1,0 +1,73 @@
+.chromestyle {
+	width: 800px;
+	height: 19px;
+	margin-left: 20px;
+	padding: 5px 0;
+}
+
+.chromestyle:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.chromestyle ul {
+	width: 100%;
+	padding: 4px 0;
+	margin: 0;
+	text-align: left; 
+}
+
+.chromestyle ul li {
+	display: inline;
+}
+
+.chromestyle ul li a {
+	color: #494949;
+	font-weight: 500;
+	padding: 4px 7px;
+	margin: 0;
+	text-decoration: none;
+	border-right: 1px solid #DADADA;
+}
+
+.chromestyle ul li a:hover, 
+.chromestyle ul li a.selected { 
+	color:#FFF;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv {
+	position:absolute;
+	top: 0;
+	border: 1px solid #BBB; 
+	border-bottom-width: 0;
+	font-size: 12px;
+	line-height: 18px;
+	z-index: 100;
+	background-color: white;
+	width: 200px;
+	visibility: hidden;
+}
+
+
+.dropmenudiv a {
+	width: auto;
+	display: block;
+	text-indent: 3px;
+	border-bottom: 1px solid #BBB; 
+	padding: 2px 0;
+	text-decoration: none;
+	color: #000;
+}
+
+* html .dropmenudiv a { /*IE only hack*/
+	width: 100%;
+}
+
+.dropmenudiv a:hover { /*THEME CHANGE HERE*/
+	background-color: #F0F0F0;
+}

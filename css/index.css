@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper #flashBanner {
+	width: 898px;
+	height: 250px;
+	margin: 0 auto;
+}
+#wrapper #contentArea {
+	margin: 10px 0 0 5px;
+	border: none;
+	background-image: none;
+}
+#homeContent {
+	width: 900px;
+	height: 361px;
+	background: url(../images/bottomBoxes.jpg) no-repeat top center;
+	margin: 10px auto;
+}
+#homeContent div {
+	width: 380px;
+	float: left;
+	margin: 0 10px;
+	padding: 10px 25px;
+}
+#homeContent ul li {
+	margin: 15px 20px;
+	list-style: circle;
+}
+#homeContent h1,
+#homeContent h2, 
+#homeContent p {
+	margin: 10px 0;
+	text-align: left;
+}
+#homeContent h1,
+#homeContent h2 { 
+	font-size: 16px;
+	color: #333;
+}
+#homeContent h1 { 
+	font-weight: bold;
+}
+#homeContent h2 { 
+	font-size: 12px;
+}
+#homeContent a {
+	color: #5087B6;
+	text-decoration: none;
+}
+#homeContent a:hover {
+	color: #C00;
+	text-decoration: underline;
+}

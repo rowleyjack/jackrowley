@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper #contentArea #mainContent div  {
+	width: 698px;
+}
+#wrapper #contentArea #mainContent div img {
+	float: left;
+	margin-right: 15px;
+}
+#wrapper #contentArea #mainContent div p {
+	float: left;
+}
