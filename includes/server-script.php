@@ -1,6 +1,6 @@
 <?php
 
-//*******Global Data across site************//
+//******* Global Data across site ************//
 
 $email = 'info@jackrowley.net';
 
